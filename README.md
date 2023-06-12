@@ -11,7 +11,7 @@ Inside your presentation you can use the following components:
 - `Markdown` - A markdown component that will be rendered as a slide in your presentation.
 - `Code` - A code component that will be rendered as a slide in your presentation.
 
-Don't hesitate to create your own components and use them in your presentation. For example, if your slides are complexes, you can create a `slide` folder that will contain all your slides components.
+Don't hesitate to create your own components and use them in your presentation. For example, if your slides are complexes, you can create a `slides` folder that will contain all your slides components.
 
 ## Developing
 
