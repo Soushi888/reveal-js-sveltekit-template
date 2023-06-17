@@ -1,11 +1,16 @@
 <script lang="ts">
+	import { languageStore } from '$lib/store';
 	import Code from './code.svelte';
 	import Markdown from './markdown.svelte';
 	import Slide from './slide.svelte';
 </script>
 
 <Slide>
-	<p>Hello World</p>
+	{#if $languageStore === 'fr'}
+		<p>Bonjour Monde !</p>
+	{:else}
+		<p>Hello World !</p>
+	{/if}
 </Slide>
 
 <Slide>
